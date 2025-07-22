@@ -2,26 +2,24 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  name: "Tlhalefang Ntshilane",
+  initials: "TN",
+  url: "https://studybuddiai.vercel.app",
+  location: "Botswana",
+  locationLink: "https://www.google.com/maps/place/Botswana",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Cybersecurity & AI-Focused Software Developer | Tech Innovator | Hackathon Winner",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "I'm a passionate and innovative tech enthusiast currently studying Computer Science with a specialization in Network Security and Computer Forensics. I actively build scalable digital solutions combining AI, eLearning, and cybersecurity to solve real-world problems. I've participated in international programs and hackathons, including a Student Exchange Programme in Turkey, where I explored Machine Learning Mathematics, UX Design, Software Design Patterns, and Project Management. My strength lies in blending creative problem-solving with strong technical implementation.",
   avatarUrl: "/me.png",
-  skills: [
+skills: [
     "React",
     "Next.js",
     "Typescript",
     "Node.js",
     "Python",
-    "Go",
-    "Postgres",
-    "Docker",
-    "Kubernetes",
+    "HTML",
+    "CSS",
     "Java",
     "C++",
   ],
@@ -30,33 +28,33 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "Tlhalefangntshilane@gmail.com",
+    tel: "+26777593604",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/ThalefangN/",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/thalefang-ntshilane-949635317",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "",
         icon: Icons.youtube,
         navbar: true,
       },
@@ -71,89 +69,111 @@ export const DATA = {
   },
 
   work: [
-    {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
-      badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
-      description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
-    },
-    {
-      company: "Shopify",
-      badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
-    },
-    {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
-      badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
-      description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
-    },
-  ],
-  education: [
-    {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
-    },
-    {
+  {
+    company: "StudyBuddy AI",
+    href: "https://studybuddiai.vercel.app",
+    badges: ["Founder"],
+    location: "Remote",
+    title: "AI Developer & Product Designer",
+    logoUrl: "/studybuddy.png",
+    start: "2023",
+    end: "Present",
+    description:
+      "Developed and launched an AI-powered eLearning platform that provides personalized academic support using GPT-based tools. Integrated YouTube content curation and smart feedback. Designed a modern, responsive frontend with React and Tailwind.",
+  },
+  {
+    company: "BotsEdu Hacks",
+    href: "",
+    badges: ["Initiative"],
+    location: "Botswana",
+    title: "Founder & Organizer",
+    logoUrl: "/botsedu.png",
+    start: "2023",
+    end: "Present",
+    description:
+      "Organized and led Botswana’s youth innovation hackathon platform to promote coding, cybersecurity awareness, and digital literacy in primary, secondary, and tertiary schools.",
+  },
+  {
+    company: "Student Exchange Program – Turkey",
+    href: "",
+    badges: ["International"],
+    location: "Turkey",
+    title: "Exchange Student - Computer Science",
+    logoUrl: "/turkey.png",
+    start: "2023",
+    end: "2023",
+    description:
+      "Studied Mathematics for Machine Learning, Software Design Patterns, UX Design, and Agile Project Management. Participated in collaborative international tech research projects.",
+  },
+  {
+    company: "Tswana Student Loan System",
+    href: "",
+    badges: [],
+    location: "Botho University",
+    title: "Full Stack Developer",
+    logoUrl: "/botho.png",
+    start: "2022",
+    end: "2022",
+    description:
+      "Built a PHP & MySQL web platform for student loan management with secure login, data storage, and admin dashboards. Streamlined financial workflows for students.",
+  },
+  {
+    company: "Transport Botswana Booking App",
+    href: "",
+    badges: [],
+    location: "Botswana",
+    title: "Freelance Developer",
+    logoUrl: "/transport.png",
+    start: "2022",
+    end: "2022",
+    description:
+      "Developed an appointment booking platform to simplify driving test schedules and logistics. Integrated form processing and availability tracking for users and transport officials.",
+  },
+  {
+    company: "Safety & Security Hackathon App",
+    href: "",
+    badges: ["Hackathon"],
+    location: "Botswana",
+    title: "Lead Developer",
+    logoUrl: "/security.png",
+    start: "2023",
+    end: "2023",
+    description:
+      "Created a crowdsourced app for reporting local crime and incidents, integrating geolocation, Google Maps, and real-time alerts. Built using Flutter and Firebase.",
+  },
+],
+education: [
+  {
+    school: "Botho University",
+    href: "",
+    degree: "BSc Computer Science (Network Security & Forensics)",
+    logoUrl: "/botho.png",
+    start: "2021",
+    end: "2024",
+  },
+  {
+    school: "Buildspace",
+    href: "https://buildspace.so",
+    degree: "s3, s4, sf1, s5",
+    logoUrl: "/buildspace.jpg",
+    start: "2023",
+    end: "2024",
+  },
+  {
+    school: "Turkey Exchange Program",
+    href: "",
+    degree: "Machine Learning, UX, Project Management",
+    logoUrl: "/turkey.png",
+    start: "2023",
+    end: "2023",
+  },
+
+
+
+
+  
+  {
+
       school: "University of Waterloo",
       href: "https://uwaterloo.ca",
       degree: "Bachelor's Degree of Computer Science (BCS)",
